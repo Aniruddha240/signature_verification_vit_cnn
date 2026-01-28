@@ -24,7 +24,7 @@ This is a classic **offline signature verification** problem widely used in **KY
 - **Contrastive Loss** → minimizes distance for genuine pairs and maximizes for forged pairs  
 
 Signature A ─┐
-├── CNN + ViT ──> Embedding
+             ├── CNN + ViT ──> Embedding
 Signature B ─┘
 
 Distance between embeddings → SAME / FORGERY
