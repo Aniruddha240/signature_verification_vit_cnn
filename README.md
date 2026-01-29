@@ -23,9 +23,7 @@ This is a classic **offline signature verification** problem widely used in **KY
 - **Siamese Network** → learns embedding similarity  
 - **Contrastive Loss** → minimizes distance for genuine pairs and maximizes for forged pairs  
 
-Signature A ─┐
-             ├── CNN + ViT ──> Embedding
-Signature B ─┘
+(Signature A & Signature B) ── CNN + ViT ──> Embedding
 
 Distance between embeddings → SAME / FORGERY
 
